@@ -11,7 +11,6 @@ def drawSquare(color, length):
     for i in range(4):
         turtle.forward(length)
         turtle.right(90)
-
 def drawRectangle(width, height, color):
     turtle.color(color)
     for i in range(2):
