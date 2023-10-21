@@ -1,9 +1,9 @@
 # Turtle party project by Tyler Bird
-#
+# This program draws alot of various shapes
+# for fun.
 # 10/20/2023
 
 import turtle
-
 turtle.width(2)
 turtle.speed(0)
 
@@ -12,6 +12,7 @@ def drawSquare(color, length):
     for i in range(4):
         turtle.forward(length)
         turtle.right(90)
+
 def drawRectangle(width, height, color):
     turtle.color(color)
     for i in range(2):
@@ -36,19 +37,21 @@ def drawPolygon(l, n):
         turtle.left(360 / n)
 
 drawSquare("red", 50)
+
 moveForward(100)
 drawSquare("blue", 50)
+
 moveForward(100)
 drawRectangle(50, 80, "blue")
+
 moveBackward(300)
 drawRectangle(50, 80, "red")
-moveBackward(100)
 
+moveBackward(100)
 drawPolygon(50, 3);
 drawSquare("green", 50)
 
 moveBackward(100)
-
 drawPolygon(50, 3);
 drawSquare("green", 50)
 
