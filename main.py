@@ -1,3 +1,6 @@
+# Turtle party project
+# Author: Tyler J Bird
+
 import turtle
 import math;
 import numpy as np
